@@ -14,4 +14,12 @@ Day 2:
 
 -- Offline --
   - Get familier with annotations.
-  - 
+
+Day 3:
+  - Basic constructs, Access modifiers, Inheritance
+  - OOP
+  - Templates
+
+
+  -- Offline --
+    - Inheritance (product -> Phone -> IPhone, Galaxy), (product -> Accessary -> phoneAccessary)

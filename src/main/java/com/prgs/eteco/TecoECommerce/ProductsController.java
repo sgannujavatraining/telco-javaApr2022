@@ -3,6 +3,8 @@ package com.prgs.eteco.TecoECommerce;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.prgs.eteco.TecoECommerce.model.Product;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,9 +37,6 @@ public class ProductsController {
 		return list;
 	}
 
-
-
-
 	@GetMapping("/products-search")
 	public List<Product> searchProducts() {
 
@@ -45,3 +44,4 @@ public class ProductsController {
 	}
 
 }
+
