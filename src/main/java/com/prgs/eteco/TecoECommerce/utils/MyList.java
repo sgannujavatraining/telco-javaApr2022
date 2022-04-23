@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyList<TV> {
-  List<TV> variables = new ArrayList<>();
+  List<TV> variables;
+
+  public MyList() {
+    variables = new ArrayList<>();
+  }
 
   void add(TV str) {
     variables.add(str);
