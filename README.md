@@ -23,3 +23,12 @@ Day 3:
 
   -- Offline --
     - Inheritance (product -> Phone -> IPhone, Galaxy), (product -> Accessary -> phoneAccessary)
+
+Day 4: 
+  - Service layer
+  - Spring web + jsp (https://java2blog.com/spring-boot-web-application-example/)
+  - Singleton pattern
+  - Service/Client side rendering
+
+  Todo: 
+    - Draw server side rendering flow vs Client side rendering
