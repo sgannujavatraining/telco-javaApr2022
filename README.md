@@ -32,3 +32,12 @@ Day 4:
 
   Todo: 
     - Draw server side rendering flow vs Client side rendering
+
+Day 5: 
+  - Spring IOC & DI.
+  - Singleton beans
+  - H2 database and Data access layer https://examples.javacodegeeks.com/spring-boot-h2-database-example/
+    And https://www.baeldung.com/spring-boot-h2-database
+
+  Todo:
+    - Spring bean scopes (singleton, prototype, request, session, global)
