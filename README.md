@@ -41,3 +41,6 @@ Day 5:
 
   Todo:
     - Spring bean scopes (singleton, prototype, request, session, global)
+
+Day 6: 
+  - 

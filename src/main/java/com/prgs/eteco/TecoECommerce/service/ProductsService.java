@@ -16,9 +16,9 @@ public class ProductsService {
   ProductRepository repository;
 
   public List<Product> getProducts() {
-    final List<Product> students = new ArrayList<>();
+    final List<Product> products = new ArrayList<>();
     repository.findAll().forEach(student -> students.add(student));
-    return students;
+    return products;
   }
 
   public void saveProduct(Product newProduct) {
