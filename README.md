@@ -1,12 +1,15 @@
 
 Day 1: Springboot hello-world
   - https://spring.io/guides/gs/spring-boot/
+  - What is Programming Language? Java?
 
   -- Offline --
   - HTTP methods (GET, POST etc)
   - Camel casing for Java naming convension
 
 Day 2:
+
+  - A microservice architecture
   - get familier with GIT cli: eg: git checkout -b <branch>
   - Add post method for creating a new product: 
     https://spring.io/guides/tutorials/rest/
