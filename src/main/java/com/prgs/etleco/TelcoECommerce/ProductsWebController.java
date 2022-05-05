@@ -1,4 +1,4 @@
-package com.prgs.eteco.TecoECommerce;
+package com.prgs.etleco.TelcoECommerce;
 import java.util.List;
 
 import com.prgs.eteco.TecoECommerce.service.ProductsService;

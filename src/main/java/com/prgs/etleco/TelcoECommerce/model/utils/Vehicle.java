@@ -1,4 +1,4 @@
-package com.prgs.eteco.TecoECommerce.utils;
+package com.prgs.etleco.TelcoECommerce.model.utils;
 
 public class Vehicle {
   protected int wheels;

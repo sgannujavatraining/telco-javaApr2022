@@ -19,6 +19,8 @@ Day 2:
   - Get familier with annotations.
 
 Day 3:
+  - Basic Springboot architecture
+    Open architecture.drawio file from https://app.diagrams.net/
   - Basic constructs, Access modifiers, Inheritance
   - OOP
   - Templates

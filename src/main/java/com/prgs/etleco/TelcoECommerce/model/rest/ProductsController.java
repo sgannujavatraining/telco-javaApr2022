@@ -1,4 +1,4 @@
-package com.prgs.eteco.TecoECommerce.rest;
+package com.prgs.etleco.TelcoECommerce.model.rest;
 
 import java.util.ArrayList;
 import java.util.List;

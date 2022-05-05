@@ -1,4 +1,4 @@
-package com.prgs.eteco.TecoECommerce;
+package com.prgs.etleco.TelcoECommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
