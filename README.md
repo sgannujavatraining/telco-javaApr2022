@@ -9,7 +9,6 @@ Day 1: Springboot hello-world
 
 Day 2:
 
-  - A microservice architecture
   - get familier with GIT cli: eg: git checkout -b <branch>
   - Add post method for creating a new product: 
     https://spring.io/guides/tutorials/rest/
@@ -19,15 +18,15 @@ Day 2:
   - Get familier with annotations.
 
 Day 3:
-  - Basic Springboot architecture
+  - Basic Springboot/microservice architecture
     Open architecture.drawio file from https://app.diagrams.net/
   - Basic constructs, Access modifiers, Inheritance
   - OOP
-  - Templates
 
 
   -- Offline --
     - Inheritance (product -> Phone -> IPhone, Galaxy), (product -> Accessary -> phoneAccessary)
+    - OOP concepts
 
 Day 4: 
   - Service layer
@@ -48,4 +47,12 @@ Day 5:
     - Spring bean scopes (singleton, prototype, request, session, global)
 
 Day 6: 
-  - 
+  - Swagger UI
+  - Debug SpringBootApplication
+  - Calling another REST service
+  
+  TODO:
+  - Create another micro Service CustomerWeaversService.
+  - Call CWS using httpClient from existing TelcoService. 
+  
+  
