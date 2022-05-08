@@ -55,4 +55,17 @@ Day 6:
   - Create another micro Service CustomerWeaversService.
   - Call CWS using httpClient from existing TelcoService. 
   
+ Day 7:
+ 	- Apache Http client calling other RestAPI/micro-service (https://www.baeldung.com/httpclient-guide)
+ 
+ 	TODO:
+ 		- Builder pattern (one of the design patterns)
+ 		- Exception handling
+ 		- Mapping json to Object and vice-versa
+ 		- Read more about CORS
+ 		- try out other(including advanced) examples from: https://www.baeldung.com/httpclient-guide
+ 		
+ 		
+ 		
+  
   
