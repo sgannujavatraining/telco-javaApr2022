@@ -1,47 +1,43 @@
 package com.prgs.etelco.TelcoECommerce;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import com.prgs.etelco.TelcoECommerce.model.Product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.prgs.etelco.TelcoECommerce.model.Product;
 
 @RestController
 public class ProductsController {
 
-	// @Autowired - another way of auto-wiring but not preferred.
-	ProductsService service; 
+	// @Autowired
+	ProductsService productsService; // list
 
 	@Autowired
-	public ProductsController(ProductsService service)	{
-		this.service = service;
+	public ProductsController(ProductsService productsService) {
+		this.productsService = productsService;
 	}
 
 	/*
-	@Autowired
-	public void setService(ProductsService service)	{
-		this.service = service;
-	}*/
+	 * @Autowired public void setProductsController(ProductsService productsService)
+	 * { this.productsService = productsService; }
+	 */
 
-	@GetMapping("/products") 
+	@GetMapping("/products")
 	public List<Product> listProducts() {
-		return service.getProducts();
+
+		List<Product> list = productsService.getProducts();
+
+		return list;
 	}
 
-	@PostMapping("/save-product") // Mapping HTTP POST
-	public String saveProducts(Product newProduct) {
-		 service.saveProduct(newProduct);
-		 return "success";
+	@PostMapping("/save-product")
+	public String save(Product newProduct) {
+		productsService.saveProduct(newProduct);
+		return "success";
+
 	}
 
-	@GetMapping("/products-search")
-	public List<Product> searchProducts() {
-
-		return null;
-	}
 }
