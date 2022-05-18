@@ -3,39 +3,40 @@ package com.prgs.etelco.TelcoECommerce.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
 @Entity
 public class Product {
-  // @Id annotation specifies the primary key of an entity.
-    // @GeneratedValue provides the generation strategy specification for the primary key values.
-    @Id
-    @GeneratedValue
-    private int id;
-    
-  private String name;
-  private float price;
-  private String description;
-  private String type;
-  private int rating;
+	// @Id annotation specifies the primary key of an entity.
+	// @GeneratedValue provides the generation strategy specification for the
+	// primary key values.
+	@Id
+	@GeneratedValue
+	private int id;
 
-  static Product instance;
+	private String name;
+	private float price;
+	private String description;
+	private String type;
+	private int rating;
+	private Offer offer;
 
-  public Product() {
+	public Product() {
 
-  }
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-  public void setPrice(float inputPrice) {
-    if (price <= 0)
-      throw new RuntimeException("Invalid price value");
+	public void setPrice(float inputPrice) {
+		if (price <= 0)
+			throw new RuntimeException("Invalid price value");
 
-    this.price = inputPrice;
-  }
+		this.price = inputPrice;
+	}
 
 }

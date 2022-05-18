@@ -49,7 +49,7 @@ Day 5:
 		https://www.baeldung.com/spring-bean-scopes
 		
 Day 6: 
-  - Swagger UI
+  - Swagger UI (https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
   - Debug SpringBootApplication
   - Calling another REST service
   
